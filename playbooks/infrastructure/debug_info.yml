@@ -1,7 +1,6 @@
 ---
 - name: gather debug info
   hosts: "localhost"
-  become: true
   gather_facts: false
 
   tasks:
